@@ -22,7 +22,7 @@ public class ViewAllCourse {
                 System.out.println();
                 System.out.println(Style.ORANGE+"Course Id : "+ c.getCourseId());
                 System.out.println("Course Name : " + c.getCourseName());
-                System.out.println("Course Fee : " + c.getCourseFee() + " Rs.");
+                System.out.println("Course Fee : " + c.getCourseFee() + " €.");
                 System.out.println("Course Description : " + c.getCourseDesc());
                 System.out.println("------------------------------"+Style.RESET);
 
