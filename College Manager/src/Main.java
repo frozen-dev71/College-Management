@@ -1,3 +1,5 @@
+import administrator.AdminLogin;
+import main_components.facultyrights.FacultyLogin;
 import style.Style;
 
 import java.util.Scanner;
@@ -21,10 +23,10 @@ public class Main {
             String ch = sc.next();
 
             if(ch.equals("1")) {
-
+                AdminLogin.LoginAdmin();
 
             }else if(ch.equals("2")) {
-
+                FacultyLogin.login();
 
             }else if(ch.equals("3")) {
                 System.out.println();
