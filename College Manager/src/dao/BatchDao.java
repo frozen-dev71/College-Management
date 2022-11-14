@@ -1,4 +1,4 @@
-package dtbase;
+package dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import exception.BatchException;
 import model.Batch;
 import model.Report;
 
-public interface BatchDb {
+public interface BatchDao {
 
     public String addBatch(Batch batch) throws BatchException;
 

@@ -1,4 +1,4 @@
-package dtbase;
+package dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,7 +10,7 @@ import style.Style;
 import model.Faculty;
 import utility.DBUtil;
 
-public class FacultyRightsDbImpl implements FacultyRightsDb {
+public class FacultyRightsDaoImpl implements FacultyRightsDao {
     @Override
     public Faculty loginFaculty(String username, String password) throws FacultyRightsException {
 

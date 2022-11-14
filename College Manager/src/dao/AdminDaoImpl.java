@@ -1,4 +1,4 @@
-package dtbase;
+package dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,7 +9,7 @@ import exception.AdminException;
 import style.Style;
 import utility.DBUtil;
 
-public class AdminDbImpl implements AdminDb{
+public class AdminDaoImpl implements AdminDao {
 
     @Override
     public boolean LoginAdmin(String username, String password) throws AdminException {

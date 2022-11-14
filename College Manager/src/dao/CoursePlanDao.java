@@ -1,11 +1,11 @@
-package dtbase;
+package dao;
 
 import java.util.List;
 
 import exception.CoursePlanException;
 import model.CoursePlan;
 
-public interface CoursePlanDb {
+public interface CoursePlanDao {
     public String addCoursePlan(String batchId, int dayNo) throws CoursePlanException;
 
     public String updateStatus(String batchId, int dayNo) throws CoursePlanException;

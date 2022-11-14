@@ -1,11 +1,11 @@
-package dtbase;
+package dao;
 
 import java.util.List;
 
 import exception.FacultyException;
 import model.Faculty;
 
-public interface FacultyDb {
+public interface FacultyDao {
     public String addFaculty(Faculty faculty) throws FacultyException;
 
     public List<Faculty> getAllFacultyDetails()throws FacultyException;

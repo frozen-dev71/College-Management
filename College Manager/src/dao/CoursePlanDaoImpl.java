@@ -1,4 +1,4 @@
-package dtbase;
+package dao;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -16,7 +16,7 @@ import style.Style;
 import model.CoursePlan;
 import utility.DBUtil;
 
-public class CoursePlanDbImpl implements CoursePlanDb {
+public class CoursePlanDaoImpl implements CoursePlanDao {
 
     // Add New Course Plan into Database
     @Override

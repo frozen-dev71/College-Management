@@ -1,4 +1,4 @@
-package dtbase;
+package dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -14,7 +14,7 @@ import style.Style;
 import model.Faculty;
 import utility.DBUtil;
 
-public class FacultyDbImpl implements FacultyDb {
+public class FacultyDaoImpl implements FacultyDao {
 
 
     // Add New Faculty into Database

@@ -1,4 +1,4 @@
-package dtbase;
+package dao;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -13,7 +13,7 @@ import style.Style;
 import model.Batch;
 import model.Report;
 import utility.DBUtil;
-public class BatchDbImpl implements BatchDb {
+public class BatchDaoImpl implements BatchDao {
     // Add New Batch into Database
     @Override
     public String addBatch(Batch batch) throws BatchException {

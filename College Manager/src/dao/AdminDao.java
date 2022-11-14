@@ -1,8 +1,8 @@
-package dtbase;
+package dao;
 
 import exception.AdminException;
 
-public interface AdminDb {
+public interface AdminDao {
     public boolean LoginAdmin(String username , String password) throws AdminException;
 
 }
